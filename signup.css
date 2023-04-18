@@ -1,0 +1,113 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); 
+
+
+*{
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+} 
+ .outerbox {   
+    width: 100vw; 
+    height: 100vh; 
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+    
+
+          
+ } 
+
+ body{
+    font-family:'Lato', sans-serif;  
+    
+ }
+
+ .innerbox{ 
+     width:400px;
+     margin:0px auto;
+     padding: 20px 40px;
+     position: relative; 
+     top:20%; 
+     border: 1px solid black ;
+     border-radius: 8px;
+     background-color: whitesmoke;
+     backdrop-filter: blur(8px);
+     box-shadow: 2px 2px 5px #2773a5;
+     z-index: 2;
+      }  
+
+      h1{
+        font-size: 2.8rem; 
+        
+      
+        
+      }
+   
+      .signup-header p{
+          color: #555;
+          margin-top: 5px;
+          margin-bottom: 5px; 
+          font-size: 0.8rem; 
+      }
+      
+      .signup-body p{ 
+        font-size: 0.8rem; 
+        
+                
+                 
+                
+
+      } 
+      .signup-body label{
+             display: block;
+             margin:5px 0px; 
+             font-weight: bold;
+
+      } 
+      .signup-body input {
+         width: 100%;
+         padding: 10px;
+         border: 2px solid #cccc;
+         border-radius: 4px;
+         font-size: 1rem; 
+      } 
+      .signup-body input[type = "submit"] 
+      {
+             color: white;
+             cursor: pointer; 
+             background-color: #3ed8ff; 
+             border: 1px solid #3ed8ff; 
+             border-radius: 3px; 
+             margin: 10px 0px; 
+      } 
+        .footer p{
+            text-align: center;  
+            margin: 5px 5px 0px 5px; 
+            border-radius: none;
+            display: block;
+
+       } 
+       .footer p a {
+         margin-left: 2px; 
+         display: inline-block; 
+         
+
+       }   
+
+       .circle
+       {
+         width: 150px; 
+         height:150px;
+         border-radius: 100px; 
+         position: absolute;
+         background:linear-gradient(to top right , #ffffaa , #ffffff)
+       } 
+
+      .c1 {
+          top:100px;
+          left:50px;
+      } 
+      .c2{
+          bottom:200px;
+          right:100px;
+      }
+
+      
